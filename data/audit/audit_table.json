@@ -1,0 +1,525 @@
+{
+ "generated_by": "code/tools/nbsdc_audit_table.py",
+ "datasets": [
+  {
+   "id": "001",
+   "name": "中医施针手法数据集",
+   "cstr": "QutqtZMf",
+   "kind": "optical motion capture (OptiTrack)",
+   "trials": 6142,
+   "subjects": 100,
+   "subjects_unique_names": 88,
+   "conditions": {
+    "中风偏瘫": 34,
+    "尿失禁": 37,
+    "膝骨关节炎": 29
+   },
+   "label_bearing_files": 0,
+   "classes": 0,
+   "fs_hz": 120.0,
+   "usable": false,
+   "reason": "no manipulation labels anywhere: 0 of 6142 files carry one"
+  },
+  {
+   "id": "002",
+   "name": "人体穴位识别与定位数据集",
+   "cstr": "h3Y7FJ7f",
+   "kind": "RGB / depth / mmWave point cloud (spatial localisation)",
+   "trials": 0,
+   "subjects": 0,
+   "label_bearing_files": 0,
+   "classes": 21,
+   "fs_hz": null,
+   "usable": false,
+   "reason": "different task (acupoint detection, not time-series classification); payload still archived (1 file(s), 3863.6 MB)"
+  },
+  {
+   "id": "003-001-1",
+   "name": "穴位针灸力与手部位姿数据集（22 例）",
+   "cstr": "DliwVDXs",
+   "kind": "force / torque / FBG / IMU time series",
+   "trials": 22,
+   "subjects": 0,
+   "label_bearing_files": 22,
+   "classes": 4,
+   "fs_hz": 19.97,
+   "rows_per_trial": 854,
+   "counts": {
+    "捻转泻": 4,
+    "捻转补": 5,
+    "提插泻": 6,
+    "提插补": 7
+   },
+   "usable": true,
+   "reason": "only subset with manipulation labels; 22 trials, no subject identifier"
+  },
+  {
+   "id": "KG",
+   "name": "人体穴位知识图谱数据集",
+   "cstr": "rt5fZiea",
+   "kind": "knowledge graph (jsonl / db triples)",
+   "trials": 0,
+   "subjects": 0,
+   "label_bearing_files": 0,
+   "classes": 0,
+   "fs_hz": null,
+   "usable": false,
+   "pending": false,
+   "reason": "different modality: symptom-acupoint-technique triples, no time series; payload 1.71 GB (8 jsonl instruction corpora + 12 Neo4j store files)",
+   "obtained": true
+  }
+ ],
+ "subtasks": {
+  "4class": {
+   "acc": 0.2727,
+   "majority": 0.3182,
+   "n_classes": 4,
+   "n_windows": 220,
+   "chance": 0.25,
+   "per_trial": [
+    {
+     "t": 1,
+     "y": 2,
+     "p": 0
+    },
+    {
+     "t": 2,
+     "y": 2,
+     "p": 3
+    },
+    {
+     "t": 3,
+     "y": 2,
+     "p": 3
+    },
+    {
+     "t": 4,
+     "y": 2,
+     "p": 2
+    },
+    {
+     "t": 5,
+     "y": 2,
+     "p": 3
+    },
+    {
+     "t": 6,
+     "y": 3,
+     "p": 2
+    },
+    {
+     "t": 7,
+     "y": 3,
+     "p": 3
+    },
+    {
+     "t": 8,
+     "y": 3,
+     "p": 2
+    },
+    {
+     "t": 9,
+     "y": 3,
+     "p": 2
+    },
+    {
+     "t": 10,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 11,
+     "y": 0,
+     "p": 2
+    },
+    {
+     "t": 12,
+     "y": 0,
+     "p": 1
+    },
+    {
+     "t": 13,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 14,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 15,
+     "y": 0,
+     "p": 1
+    },
+    {
+     "t": 16,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 17,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 18,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 19,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 20,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 21,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 22,
+     "y": 1,
+     "p": 0
+    }
+   ]
+  },
+  "2class_insert_vs_twirl": {
+   "acc": 0.8636,
+   "majority": 0.5909,
+   "n_classes": 2,
+   "n_windows": 220,
+   "chance": 0.5,
+   "per_trial": [
+    {
+     "t": 1,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 2,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 3,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 4,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 5,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 6,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 7,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 8,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 9,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 10,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 11,
+     "y": 0,
+     "p": 1
+    },
+    {
+     "t": 12,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 13,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 14,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 15,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 16,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 17,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 18,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 19,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 20,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 21,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 22,
+     "y": 0,
+     "p": 0
+    }
+   ]
+  },
+  "2class_supplement_vs_drain": {
+   "acc": 0.3636,
+   "majority": 0.5455,
+   "n_classes": 2,
+   "n_windows": 220,
+   "chance": 0.5,
+   "per_trial": [
+    {
+     "t": 1,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 2,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 3,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 4,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 5,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 6,
+     "y": 0,
+     "p": 1
+    },
+    {
+     "t": 7,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 8,
+     "y": 0,
+     "p": 1
+    },
+    {
+     "t": 9,
+     "y": 0,
+     "p": 1
+    },
+    {
+     "t": 10,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 11,
+     "y": 1,
+     "p": 1
+    },
+    {
+     "t": 12,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 13,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 14,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 15,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 16,
+     "y": 1,
+     "p": 0
+    },
+    {
+     "t": 17,
+     "y": 0,
+     "p": 1
+    },
+    {
+     "t": 18,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 19,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 20,
+     "y": 0,
+     "p": 1
+    },
+    {
+     "t": 21,
+     "y": 0,
+     "p": 0
+    },
+    {
+     "t": 22,
+     "y": 0,
+     "p": 1
+    }
+   ]
+  },
+  "_protocol": {
+   "win": 128,
+   "stride": 64,
+   "epochs": 10,
+   "seed": 42,
+   "normalisation": "per-trial z-score",
+   "aggregation": "trial-level majority vote",
+   "note": "leave-one-trial-out; window-level accuracy is degenerate here because each fold has one label"
+  }
+ },
+ "univariate": {
+  "feature": "mean|gyrZ| (channel 10, absolute mean over the trial)",
+  "target": "insert vs twirl",
+  "auc": 0.8718,
+  "loto_acc": 0.8636,
+  "n_parameters": 1
+ },
+ "cnn_gap_over_univariate": 0.0,
+ "mde": {
+  "n": 22,
+  "z": 2.8,
+  "sigma_ref_pp": 6.6,
+  "detectable_ref_pp": 3.94,
+  "sigma_obs_pp": 25.45,
+  "detectable_obs_pp": 15.19,
+  "needed_for_target_obs": 1270,
+  "target_pp": 2.0,
+  "needed_for_target_ref": 86,
+  "spec": {
+   "fs_hz": 19.97,
+   "window": 128,
+   "stride": 64,
+   "min_windows_per_fold": 50,
+   "sec_per_trial": 163.4,
+   "trials_required": 96,
+   "windows_required": 4800,
+   "derivation": "8 operators x 24 trials/class x 4 classes = 96 trials; 50 windows/trial needs (50-1)x64+128 = 3264 samples = 163.4 s at 19.97 Hz"
+  }
+ },
+ "gates": {
+  "min_subjects": 8,
+  "min_windows_per_fold": 50,
+  "min_classes": 4,
+  "observed": {
+   "subjects": 0,
+   "trials": 22,
+   "windows_per_fold": 10.0,
+   "classes": 4
+  },
+  "verdict": "GO-but-underpowered",
+  "failed": [
+   "G1: no subject identifier, so LOSO is undefined (leave-one-trial-out substituted)",
+   "G2: 10.0 windows per fold < 50"
+  ]
+ },
+ "downstream": {
+  "exp1_hv": {
+   "MOGWO-full": 1.3113,
+   "Random": 1.3681,
+   "MOGWO-hyperonly": 1.5316
+  },
+  "exp1_igd": {
+   "MOGWO-full": 0.39,
+   "Random": 0.2965
+  },
+  "exp4_test_f1": {
+   "默认结构（不搜索）": 0.0,
+   "CNN1D（朴素基线）": 0.0,
+   "Ours-bestF1": 0.0,
+   "Ours-knee": 0.0,
+   "Ours-lightest": 0.0
+  },
+  "exp4_n_front_points": 3,
+  "exp12": {
+   "n_subjects": 22,
+   "delta_pp": 2.2,
+   "ci95_pp": [
+    -10.2,
+    14.6
+   ],
+   "p_wilcoxon": 0.5936,
+   "sd_diff_pp": 29.67
+  },
+  "verdict": {
+   "verdict": "F1 未定义（双方 macro-F1 均 < 0.05：两边都没学会，Δ 不是测量值，不得报 D）",
+   "n_pass": 0,
+   "floor_hit": true,
+   "f1_floor": 0.05
+  }
+ },
+ "audit_conclusion": {
+  "datasets_audited": 4,
+  "usable_for_tsc": 1,
+  "verdict": "one subset is label-bearing and it is an order of magnitude too small for a cross-subject claim"
+ }
+}

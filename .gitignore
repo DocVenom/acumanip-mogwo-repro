@@ -1,0 +1,24 @@
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Never commit credentials or raw data
+*credential*
+*token*
+*.zip
+*.rar
+*.tar.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.db

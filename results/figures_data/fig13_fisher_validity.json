@@ -1,0 +1,17 @@
+{
+ "figure": "fig13_fisher_validity",
+ "capture": "provenance only（该图的绘制脚本会重算实验，为避免覆盖冻结结果不重跑）",
+ "sources": [
+  {
+   "path": "results/exp17/audit.json",
+   "exists": true,
+   "md5": "7f86e8f1a0a050b797784fac5351d935"
+  },
+  {
+   "path": "results/exp17/panel.json",
+   "exists": true,
+   "md5": "44521319387a1f5ddfbccc6452c07262"
+  }
+ ],
+ "note": "fig13 = exp17_audit.py 的 fig13()：左栏 Fisher(验证集, audit.json 的 fisher_val) vs CAM 排序忠实度(A2_faithfulness)，右栏五个探针与 Fisher 的秩相关。绘制脚本 main() 会从模型重建 CAM/扰动探针并重写 results/exp17/audit.json 与 panel.json，属重算实验，故本图只登记来源、不重跑；图上每个点都对应 audit.json 的逐模型行。"
+}

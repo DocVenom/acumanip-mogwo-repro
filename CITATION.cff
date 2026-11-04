@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these artefacts, please cite the manuscript below as well as the original dataset papers."
+title: "AcuManip-MOGWO reproducibility artefacts: split definitions, data cards and corpus audit"
+type: dataset
+version: 1.0.0
+date-released: "2026-11-04"
+license: CC-BY-4.0
+repository-code: "https://github.com/REPLACE_ME/acumanip-mogwo-repro"
+abstract: >-
+  Exact cross-subject split definitions, aggregate data cards, and the corpus audit
+  behind the manuscript on multi-objective evolutionary joint search of network
+  structure and training recipe for lightweight acupuncture-manipulation recognition.
+  No raw sensor data is redistributed here.
+keywords:
+  - acupuncture manipulation recognition
+  - multi-objective evolutionary optimisation
+  - neural architecture search
+  - human activity recognition
+  - reproducibility
+authors:
+  - name: "AcuManip-MOGWO Project"
+preferred-citation:
+  type: article
+  title: "Multi-objective evolutionary joint search of network structure and training recipe for lightweight acupuncture-manipulation recognition"
+  authors:
+    - name: "AcuManip-MOGWO Project"
+  year: 2026
+  note: "Manuscript under review; author list to be completed upon acceptance."

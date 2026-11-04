@@ -1,0 +1,159 @@
+{
+ "protocol": "30 折留一被试；训练折内再按 10% 分层切出验证集（seed=42）用于早停",
+ "seed": 42,
+ "val_ratio": 0.1,
+ "n_folds": 30,
+ "note": "z-score 统计量只用训练折估计；测试折内不参与任何选择",
+ "folds": [
+  {
+   "subject": 1,
+   "n_test": 347,
+   "n_train_pool": 9952
+  },
+  {
+   "subject": 2,
+   "n_test": 302,
+   "n_train_pool": 9997
+  },
+  {
+   "subject": 3,
+   "n_test": 341,
+   "n_train_pool": 9958
+  },
+  {
+   "subject": 4,
+   "n_test": 317,
+   "n_train_pool": 9982
+  },
+  {
+   "subject": 5,
+   "n_test": 302,
+   "n_train_pool": 9997
+  },
+  {
+   "subject": 6,
+   "n_test": 325,
+   "n_train_pool": 9974
+  },
+  {
+   "subject": 7,
+   "n_test": 308,
+   "n_train_pool": 9991
+  },
+  {
+   "subject": 8,
+   "n_test": 281,
+   "n_train_pool": 10018
+  },
+  {
+   "subject": 9,
+   "n_test": 288,
+   "n_train_pool": 10011
+  },
+  {
+   "subject": 10,
+   "n_test": 294,
+   "n_train_pool": 10005
+  },
+  {
+   "subject": 11,
+   "n_test": 316,
+   "n_train_pool": 9983
+  },
+  {
+   "subject": 12,
+   "n_test": 320,
+   "n_train_pool": 9979
+  },
+  {
+   "subject": 13,
+   "n_test": 327,
+   "n_train_pool": 9972
+  },
+  {
+   "subject": 14,
+   "n_test": 323,
+   "n_train_pool": 9976
+  },
+  {
+   "subject": 15,
+   "n_test": 328,
+   "n_train_pool": 9971
+  },
+  {
+   "subject": 16,
+   "n_test": 366,
+   "n_train_pool": 9933
+  },
+  {
+   "subject": 17,
+   "n_test": 368,
+   "n_train_pool": 9931
+  },
+  {
+   "subject": 18,
+   "n_test": 364,
+   "n_train_pool": 9935
+  },
+  {
+   "subject": 19,
+   "n_test": 360,
+   "n_train_pool": 9939
+  },
+  {
+   "subject": 20,
+   "n_test": 354,
+   "n_train_pool": 9945
+  },
+  {
+   "subject": 21,
+   "n_test": 408,
+   "n_train_pool": 9891
+  },
+  {
+   "subject": 22,
+   "n_test": 321,
+   "n_train_pool": 9978
+  },
+  {
+   "subject": 23,
+   "n_test": 372,
+   "n_train_pool": 9927
+  },
+  {
+   "subject": 24,
+   "n_test": 381,
+   "n_train_pool": 9918
+  },
+  {
+   "subject": 25,
+   "n_test": 409,
+   "n_train_pool": 9890
+  },
+  {
+   "subject": 26,
+   "n_test": 392,
+   "n_train_pool": 9907
+  },
+  {
+   "subject": 27,
+   "n_test": 376,
+   "n_train_pool": 9923
+  },
+  {
+   "subject": 28,
+   "n_test": 382,
+   "n_train_pool": 9917
+  },
+  {
+   "subject": 29,
+   "n_test": 344,
+   "n_train_pool": 9955
+  },
+  {
+   "subject": 30,
+   "n_test": 383,
+   "n_train_pool": 9916
+  }
+ ]
+}

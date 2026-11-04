@@ -1,0 +1,922 @@
+{
+  "updated": "2026-11-02 16:33:27",
+  "n_figures": 16,
+  "figures": [
+    {
+      "figure": "fig0_framework",
+      "script": "code/exp/make_fig0.py",
+      "script_md5": "3e1584f0ecac47303181cdb55890871e",
+      "cmd": "E:/Miniconda/envs/lx/python.exe code/exp/make_fig0.py",
+      "inputs": [],
+      "outputs": [
+        {
+          "path": "results/figures/fig0_framework.svg",
+          "exists": true,
+          "bytes": 154691,
+          "md5": "d08f344bdc1f5a4cdd541fbe77f507e1",
+          "mtime": "2026-11-01 16:24:24"
+        },
+        {
+          "path": "results/figures/fig0_framework.pdf",
+          "exists": true,
+          "bytes": 59765,
+          "md5": "bd9bfaead39cf47a997681536349c26e",
+          "mtime": "2026-11-01 16:24:25"
+        },
+        {
+          "path": "results/figures/fig0_framework.eps",
+          "exists": true,
+          "bytes": 126443,
+          "md5": "958888eb0d3b57c932795987993d5123",
+          "mtime": "2026-11-01 16:24:25"
+        },
+        {
+          "path": "results/figures/fig0_framework.png",
+          "exists": true,
+          "bytes": 590438,
+          "md5": "0cfac9fdae1723446b1de7ce46d615fd",
+          "mtime": "2026-11-01 16:24:26"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-11-01 16:24:26",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {
+        "note": "publication-grade method overview v3 (color): searched FlexAcuNet architecture with per-component gene annotations + MOGWO search loop; Arial font (Elsevier-recommended); semantic palette (blue/teal = structure, purple = optional FFT, warm red = MOGWO loop, yellow/teal pills = structural/recipe genes); 18.3cm double-column; SVG+PDF+EPS+PNG; architecture mirrors code/common/models_flex.py"
+      }
+    },
+    {
+      "figure": "fig10_drift.png",
+      "script": "code/exp/exp14_report.py",
+      "script_md5": "bab882b65849610d2e25c872300e7369",
+      "cmd": null,
+      "inputs": [
+        {
+          "path": "results/exp14/drift.json",
+          "exists": true,
+          "bytes": 9489,
+          "md5": "6029aa5f41baa4a48644ac1d3083083b",
+          "mtime": "2026-10-26 05:06:00"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig10_drift.png",
+          "exists": true,
+          "bytes": 75713,
+          "md5": "720cb202e0681376a3b71d84ab05ea7a",
+          "mtime": "2026-10-27 10:02:53"
+        },
+        {
+          "path": "results/figures/fig10_drift.pdf",
+          "exists": true,
+          "bytes": 36118,
+          "md5": "40814e56ac7ecb3b00a42061e95cc7a1",
+          "mtime": "2026-10-27 10:02:53"
+        },
+        {
+          "path": "results/figures/fig10_drift.eps",
+          "exists": true,
+          "bytes": 61934,
+          "md5": "2f1f37b54645b0171d19513ed92c695e",
+          "mtime": "2026-10-27 10:02:53"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-27 10:02:53",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig11_drift_fix.png",
+      "script": "code/exp/exp15_report.py",
+      "script_md5": "bc0079a225f2d240cd280afc24ef1fa5",
+      "cmd": null,
+      "inputs": [
+        {
+          "path": "results/exp15/pool_select.json",
+          "exists": true,
+          "bytes": 85762,
+          "md5": "2ce21cb1e963c15949c5cb75d445f8fd",
+          "mtime": "2026-10-26 09:19:34"
+        },
+        {
+          "path": "results/exp15/drift.json",
+          "exists": true,
+          "bytes": 25870,
+          "md5": "3c1480b1dd00717831bd8d53d2fd4b2f",
+          "mtime": "2026-10-26 08:39:31"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig11_drift_fix.png",
+          "exists": true,
+          "bytes": 91904,
+          "md5": "52d8c64942c2229cd8b2fc68d71be038",
+          "mtime": "2026-10-27 10:02:54"
+        },
+        {
+          "path": "results/figures/fig11_drift_fix.pdf",
+          "exists": true,
+          "bytes": 28122,
+          "md5": "a19e7f6ae9d00e292820653122f3785e",
+          "mtime": "2026-10-27 10:02:55"
+        },
+        {
+          "path": "results/figures/fig11_drift_fix.eps",
+          "exists": true,
+          "bytes": 79932,
+          "md5": "258f1323b8813e259424cb4a06faad83",
+          "mtime": "2026-10-27 10:02:55"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-27 10:02:55",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig12_transfer.png",
+      "script": "code/exp/exp16_report.py",
+      "script_md5": "aa02cd84559fc8e22fdcf836ba7bf33a",
+      "cmd": null,
+      "inputs": [
+        {
+          "path": "results/exp16/drift.json",
+          "exists": true,
+          "bytes": 25679,
+          "md5": "04bd742817e1afc3716f440bbb431fc1",
+          "mtime": "2026-10-26 11:45:23"
+        },
+        {
+          "path": "results/exp16/pool_select.json",
+          "exists": true,
+          "bytes": 13889,
+          "md5": "66578dc4863362679bf8a70f7e945089",
+          "mtime": "2026-10-26 11:44:55"
+        },
+        {
+          "path": "results/exp15/pool_select.json",
+          "exists": true,
+          "bytes": 85762,
+          "md5": "2ce21cb1e963c15949c5cb75d445f8fd",
+          "mtime": "2026-10-26 09:19:34"
+        },
+        {
+          "path": "results/exp14/rule_compare.json",
+          "exists": true,
+          "bytes": 167533,
+          "md5": "81c6f72e7b5d4465b057fc68dfcc1e36",
+          "mtime": "2026-10-26 06:20:56"
+        },
+        {
+          "path": "results/figures/_constants.json",
+          "exists": true,
+          "bytes": 2282,
+          "md5": "e12d4d321757ec68caa9b6bcab281f51",
+          "mtime": "2026-11-01 09:21:22"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig12_transfer.png",
+          "exists": true,
+          "bytes": 91006,
+          "md5": "59c20bac50c151d38306190fcadaf44e",
+          "mtime": "2026-11-01 09:22:08"
+        },
+        {
+          "path": "results/figures/fig12_transfer.pdf",
+          "exists": true,
+          "bytes": 29229,
+          "md5": "197180e9805d9234d5cc6232c1d36610",
+          "mtime": "2026-11-01 09:22:08"
+        },
+        {
+          "path": "results/figures/fig12_transfer.eps",
+          "exists": true,
+          "bytes": 75326,
+          "md5": "9983dae3f40542021b68841bb25905ea",
+          "mtime": "2026-11-01 09:22:09"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-11-01 09:22:09",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig13_fisher_validity.png",
+      "script": "code/exp/exp17_audit.py",
+      "script_md5": "890dbac5cfc5def7c47a1f9ff427f463",
+      "cmd": "python code/exp/exp17_audit.py",
+      "inputs": [
+        {
+          "path": "results/exp17/audit.json",
+          "exists": true,
+          "bytes": 73653,
+          "md5": "7f86e8f1a0a050b797784fac5351d935",
+          "mtime": "2026-10-27 10:03:50"
+        },
+        {
+          "path": "results/exp17/panel.json",
+          "exists": true,
+          "bytes": 23922,
+          "md5": "44521319387a1f5ddfbccc6452c07262",
+          "mtime": "2026-10-26 12:24:19"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig13_fisher_validity.png",
+          "exists": true,
+          "bytes": 91476,
+          "md5": "abd4223741ef85b298e47b8b2a324a34",
+          "mtime": "2026-10-27 10:03:52"
+        },
+        {
+          "path": "results/figures/fig13_fisher_validity.pdf",
+          "exists": true,
+          "bytes": 35905,
+          "md5": "1772feb2f9579bf9db5852918f1b6011",
+          "mtime": "2026-10-27 10:03:53"
+        },
+        {
+          "path": "results/figures/fig13_fisher_validity.eps",
+          "exists": true,
+          "bytes": 138779,
+          "md5": "59777a2bcb0c6a3d4c5322300892f582",
+          "mtime": "2026-10-27 10:03:53"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-27 10:03:53",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig14_cross_searcher.png",
+      "script": "code/exp/exp18_report.py",
+      "script_md5": "de5434dbc0594ba7f04da42cc0e9366b",
+      "cmd": "python code/exp/exp18_report.py",
+      "inputs": [
+        {
+          "path": "results/exp18/drift.json",
+          "exists": true,
+          "bytes": 48581,
+          "md5": "552f5a23f8ff53191fb4a54ac22e2f4f",
+          "mtime": "2026-10-26 15:52:44"
+        },
+        {
+          "path": "results/exp18/pool_select.json",
+          "exists": true,
+          "bytes": 29286,
+          "md5": "0a11049037dea548de3365eeaa2b80ff",
+          "mtime": "2026-10-26 15:50:01"
+        },
+        {
+          "path": "results/exp16/drift.json",
+          "exists": true,
+          "bytes": 25679,
+          "md5": "04bd742817e1afc3716f440bbb431fc1",
+          "mtime": "2026-10-26 11:45:23"
+        },
+        {
+          "path": "results/exp16/pool_select.json",
+          "exists": true,
+          "bytes": 13889,
+          "md5": "66578dc4863362679bf8a70f7e945089",
+          "mtime": "2026-10-26 11:44:55"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig14_cross_searcher.png",
+          "exists": true,
+          "bytes": 84314,
+          "md5": "7c18c35babfe007bf05a7cde134b3e57",
+          "mtime": "2026-10-27 10:03:56"
+        },
+        {
+          "path": "results/figures/fig14_cross_searcher.pdf",
+          "exists": true,
+          "bytes": 27388,
+          "md5": "c5454a4977d57b1aa62237d9f02c90de",
+          "mtime": "2026-10-27 10:03:57"
+        },
+        {
+          "path": "results/figures/fig14_cross_searcher.eps",
+          "exists": true,
+          "bytes": 58800,
+          "md5": "02db3a93bc1916582b6cf397309c3f86",
+          "mtime": "2026-10-27 10:03:57"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-27 10:03:57",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig15_sota_compare",
+      "script": "code/exp/make_fig15.py",
+      "script_md5": "6b69fa59a92390169ca9abe64a4c7904",
+      "cmd": "python code/exp/make_fig15.py",
+      "inputs": [
+        {
+          "path": "results/exp19/minirocket_sota.json",
+          "exists": true,
+          "bytes": 2009,
+          "md5": "096d9fc32d114f02b9f15a3ac293f3ee",
+          "mtime": "2026-10-28 18:44:39"
+        },
+        {
+          "path": "results/exp20/prism_sota.json",
+          "exists": true,
+          "bytes": 2600,
+          "md5": "3a8f878ea6de070b2446cab1ba7fd3bb",
+          "mtime": "2026-10-29 09:05:08"
+        },
+        {
+          "path": "results/figures/_constants.json",
+          "exists": true,
+          "bytes": 2282,
+          "md5": "e12d4d321757ec68caa9b6bcab281f51",
+          "mtime": "2026-11-01 09:21:22"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig15_sota_compare.png",
+          "exists": true,
+          "bytes": 117486,
+          "md5": "5f31a88ae67409ed808ebd898dc0943b",
+          "mtime": "2026-11-02 16:33:26"
+        },
+        {
+          "path": "results/figures/fig15_sota_compare.pdf",
+          "exists": true,
+          "bytes": 30870,
+          "md5": "535413a141383bf4d987c4117730ebb9",
+          "mtime": "2026-11-02 16:33:27"
+        },
+        {
+          "path": "results/figures/fig15_sota_compare.eps",
+          "exists": true,
+          "bytes": 72955,
+          "md5": "f19a3b7063f2135019094111ca47284c",
+          "mtime": "2026-11-02 16:33:27"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-11-02 16:33:27",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {
+        "rcParams": {
+          "font.size": 9,
+          "axes.grid": true,
+          "grid.alpha": 0.3,
+          "grid.linestyle": ":",
+          "axes.spines.top": false,
+          "axes.spines.right": false,
+          "figure.dpi": 150,
+          "font.family": "sans-serif",
+          "font.sans-serif": [
+            "Arial",
+            "Helvetica",
+            "DejaVu Sans"
+          ],
+          "mathtext.fontset": "custom",
+          "mathtext.rm": "Arial",
+          "mathtext.it": "Arial:italic",
+          "mathtext.bf": "Arial:bold",
+          "mathtext.sf": "Arial",
+          "mathtext.tt": "Arial",
+          "mathtext.cal": "Arial:italic",
+          "mathtext.fallback": "stixsans"
+        },
+        "gap_mr_search": 0.0331,
+        "gap_mr_full": 0.0087,
+        "gap_prism_search": 0.0296,
+        "gap_prism_full": -0.0016
+      }
+    },
+    {
+      "figure": "fig1_pareto",
+      "script": "code/exp/make_report.py",
+      "script_md5": "afa2191c89e621963185e148ad1c88c2",
+      "cmd": "python code/exp/make_report.py",
+      "inputs": [
+        {
+          "path": "results/exp1/search_compare.json",
+          "exists": true,
+          "bytes": 77075,
+          "md5": "8b7ef5862ec1f01d010c20ee10ff455c",
+          "mtime": "2026-10-25 12:21:50"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig1_pareto.png",
+          "exists": true,
+          "bytes": 82851,
+          "md5": "288bf008fb00b1fa1504ffecd9fa9b2d",
+          "mtime": "2026-11-02 11:02:23"
+        },
+        {
+          "path": "results/figures/fig1_pareto.pdf",
+          "exists": true,
+          "bytes": 28139,
+          "md5": "1dd1662aa53993e945d7bd6f4358cf32",
+          "mtime": "2026-11-02 11:02:24"
+        },
+        {
+          "path": "results/figures/fig1_pareto.eps",
+          "exists": true,
+          "bytes": 60604,
+          "md5": "8d1402f5fd3c0b2b992bcb66442cbad1",
+          "mtime": "2026-11-02 11:02:24"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-11-02 11:02:25",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig2_hv",
+      "script": "code/exp/make_report.py",
+      "script_md5": "afa2191c89e621963185e148ad1c88c2",
+      "cmd": "python code/exp/make_report.py",
+      "inputs": [
+        {
+          "path": "results/exp1/search_compare.json",
+          "exists": true,
+          "bytes": 77075,
+          "md5": "8b7ef5862ec1f01d010c20ee10ff455c",
+          "mtime": "2026-10-25 12:21:50"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig2_hv.png",
+          "exists": true,
+          "bytes": 62198,
+          "md5": "9cb125ebf612b7038c0da024eca864fa",
+          "mtime": "2026-11-02 11:02:24"
+        },
+        {
+          "path": "results/figures/fig2_hv.pdf",
+          "exists": true,
+          "bytes": 23433,
+          "md5": "5749a6a5e9eabb8d3cd18ff3f7e39f28",
+          "mtime": "2026-11-02 11:02:25"
+        },
+        {
+          "path": "results/figures/fig2_hv.eps",
+          "exists": true,
+          "bytes": 50757,
+          "md5": "5484efd893dd1a08f66b9a61a4017e24",
+          "mtime": "2026-11-02 11:02:25"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-11-02 11:02:25",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig3_baselines",
+      "script": "code/exp/make_report.py",
+      "script_md5": "afa2191c89e621963185e148ad1c88c2",
+      "cmd": "python code/exp/make_report.py",
+      "inputs": [
+        {
+          "path": "results/exp2/five_layer.json",
+          "exists": true,
+          "bytes": 7958,
+          "md5": "16106f4787758b70e7735d7e32251a1c",
+          "mtime": "2026-10-25 12:48:04"
+        },
+        {
+          "path": "results/exp4/ours_final.json",
+          "exists": true,
+          "bytes": 3148,
+          "md5": "cc2aa63a7234bf715d07041de77163ac",
+          "mtime": "2026-10-29 11:28:08"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig3_baselines.png",
+          "exists": true,
+          "bytes": 84734,
+          "md5": "f50555fafad3fce9465f69bf0752b0bb",
+          "mtime": "2026-11-02 11:02:25"
+        },
+        {
+          "path": "results/figures/fig3_baselines.pdf",
+          "exists": true,
+          "bytes": 25355,
+          "md5": "0a248a9fae51ab55e2d7d590db0951fd",
+          "mtime": "2026-11-02 11:02:26"
+        },
+        {
+          "path": "results/figures/fig3_baselines.eps",
+          "exists": true,
+          "bytes": 60772,
+          "md5": "a92ac25feafe28acad075700cfb49d16",
+          "mtime": "2026-11-02 11:02:26"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-11-02 11:02:27",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig4_loso",
+      "script": "code/exp/make_report.py",
+      "script_md5": "afa2191c89e621963185e148ad1c88c2",
+      "cmd": "python code/exp/make_report.py",
+      "inputs": [
+        {
+          "path": "results/exp3/loso.json",
+          "exists": true,
+          "bytes": 3706,
+          "md5": "4723519d116a52740920fc6bac0e3c51",
+          "mtime": "2026-10-25 13:03:44"
+        },
+        {
+          "path": "results/exp6/loso_recipe.json",
+          "exists": true,
+          "bytes": 3015,
+          "md5": "c4fb15b0025a0d7176317039c7677f80",
+          "mtime": "2026-10-25 16:34:39"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig4_loso.png",
+          "exists": true,
+          "bytes": 150686,
+          "md5": "aaaf26ba19a2c1d73e6bbf6cbcc5f0fc",
+          "mtime": "2026-11-02 11:02:26"
+        },
+        {
+          "path": "results/figures/fig4_loso.pdf",
+          "exists": true,
+          "bytes": 24440,
+          "md5": "8f13678524318ffca61d8859c1e1ef6f",
+          "mtime": "2026-11-02 11:02:27"
+        },
+        {
+          "path": "results/figures/fig4_loso.eps",
+          "exists": true,
+          "bytes": 51203,
+          "md5": "11d475db0b858c8b5de60c3ebfa987f0",
+          "mtime": "2026-11-02 11:02:27"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-11-02 11:02:27",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    },
+    {
+      "figure": "fig5_data_scaling",
+      "script": "code/exp/make_fig56.py",
+      "script_md5": "2f49d92b32eaefd5fb151277544d5739",
+      "cmd": "python code/exp/make_fig56.py",
+      "inputs": [
+        {
+          "path": "results/exp5/data_scaling.json",
+          "exists": true,
+          "bytes": 10953,
+          "md5": "0a01fbb6bf66fde95aab0814174ec355",
+          "mtime": "2026-10-25 16:25:58"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig5_data_scaling.png",
+          "exists": true,
+          "bytes": 111042,
+          "md5": "cfe60d4607ab027d74f27f539c580d96",
+          "mtime": "2026-10-27 10:21:48"
+        },
+        {
+          "path": "results/figures/fig5_data_scaling.pdf",
+          "exists": true,
+          "bytes": 25067,
+          "md5": "a260f85182461f6abaea4819c6abdcf4",
+          "mtime": "2026-10-27 10:21:48"
+        },
+        {
+          "path": "results/figures/fig5_data_scaling.eps",
+          "exists": true,
+          "bytes": 64121,
+          "md5": "840ccc5dbd4aff9a7b0b87eeade9f429",
+          "mtime": "2026-10-27 10:21:48"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-27 10:21:49",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {
+        "rcParams": {
+          "font.size": 9,
+          "axes.grid": true,
+          "grid.alpha": 0.3,
+          "grid.linestyle": ":",
+          "axes.spines.top": false,
+          "axes.spines.right": false,
+          "figure.dpi": 150,
+          "font.family": "sans-serif",
+          "font.sans-serif": [
+            "Arial",
+            "Helvetica",
+            "DejaVu Sans"
+          ],
+          "mathtext.fontset": "custom",
+          "mathtext.rm": "Arial",
+          "mathtext.it": "Arial:italic",
+          "mathtext.bf": "Arial:bold",
+          "mathtext.sf": "Arial",
+          "mathtext.tt": "Arial",
+          "mathtext.cal": "Arial:italic",
+          "mathtext.fallback": "stixsans"
+        },
+        "meta_seeds": [
+          42,
+          43,
+          44,
+          45
+        ],
+        "meta_points": [
+          600,
+          1200,
+          2400,
+          4800,
+          6752
+        ]
+      }
+    },
+    {
+      "figure": "fig6_loso_recipe",
+      "script": "code/exp/make_fig56.py",
+      "script_md5": "2f49d92b32eaefd5fb151277544d5739",
+      "cmd": "python code/exp/make_fig56.py",
+      "inputs": [
+        {
+          "path": "results/exp6/loso_recipe.json",
+          "exists": true,
+          "bytes": 3015,
+          "md5": "c4fb15b0025a0d7176317039c7677f80",
+          "mtime": "2026-10-25 16:34:39"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig6_loso_recipe.png",
+          "exists": true,
+          "bytes": 123143,
+          "md5": "0a45a30df5a28f75b7857644a9a37469",
+          "mtime": "2026-10-27 10:21:49"
+        },
+        {
+          "path": "results/figures/fig6_loso_recipe.pdf",
+          "exists": true,
+          "bytes": 24312,
+          "md5": "f556894a97ba5938e57a0b0b1ffbd3ef",
+          "mtime": "2026-10-27 10:21:49"
+        },
+        {
+          "path": "results/figures/fig6_loso_recipe.eps",
+          "exists": true,
+          "bytes": 60852,
+          "md5": "6abe70e68afc62bc32014c7ac869c391",
+          "mtime": "2026-10-27 10:21:49"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-27 10:21:49",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {
+        "rcParams": {
+          "font.size": 9,
+          "axes.grid": true,
+          "grid.alpha": 0.3,
+          "grid.linestyle": ":",
+          "axes.spines.top": false,
+          "axes.spines.right": false,
+          "figure.dpi": 150,
+          "font.family": "sans-serif",
+          "font.sans-serif": [
+            "Arial",
+            "Helvetica",
+            "DejaVu Sans"
+          ],
+          "mathtext.fontset": "custom",
+          "mathtext.rm": "Arial",
+          "mathtext.it": "Arial:italic",
+          "mathtext.bf": "Arial:bold",
+          "mathtext.sf": "Arial",
+          "mathtext.tt": "Arial",
+          "mathtext.cal": "Arial:italic",
+          "mathtext.fallback": "stixsans"
+        },
+        "diff": {
+          "mean_diff": 0.003733677132042153,
+          "win": 16,
+          "lose": 9,
+          "tie": 5,
+          "wilcoxon_p": 0.24181965823701845
+        }
+      }
+    },
+    {
+      "figure": "fig7_cross_subject",
+      "script": "code/exp/make_fig7.py",
+      "script_md5": "62ac269a1d2c11f77ee4cf43d00527e7",
+      "cmd": "python code/exp/make_fig7.py",
+      "inputs": [
+        {
+          "path": "results/exp8/cross_subject.json",
+          "exists": true,
+          "bytes": 8456,
+          "md5": "2b24b0ebd70907927f3eda80b9524dcc",
+          "mtime": "2026-10-25 19:25:28"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig7_cross_subject.png",
+          "exists": true,
+          "bytes": 89848,
+          "md5": "d1427cf67c50902bba916b6d53fe66f2",
+          "mtime": "2026-10-27 10:02:38"
+        },
+        {
+          "path": "results/figures/fig7_cross_subject.pdf",
+          "exists": true,
+          "bytes": 24192,
+          "md5": "4877bcae74bc262f8bf2a61a16403e96",
+          "mtime": "2026-10-27 10:02:38"
+        },
+        {
+          "path": "results/figures/fig7_cross_subject.eps",
+          "exists": true,
+          "bytes": 60274,
+          "md5": "4805b820f9cfa1e9c01c64e72c5a62ae",
+          "mtime": "2026-10-27 10:02:38"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-27 10:02:38",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {
+        "rcParams": {
+          "font.size": 9,
+          "axes.grid": true,
+          "grid.alpha": 0.3,
+          "grid.linestyle": ":",
+          "axes.spines.top": false,
+          "axes.spines.right": false,
+          "figure.dpi": 150,
+          "font.family": "sans-serif",
+          "font.sans-serif": [
+            "Arial",
+            "Helvetica",
+            "DejaVu Sans"
+          ],
+          "mathtext.fontset": "custom",
+          "mathtext.rm": "Arial",
+          "mathtext.it": "Arial:italic",
+          "mathtext.bf": "Arial:bold",
+          "mathtext.sf": "Arial",
+          "mathtext.tt": "Arial",
+          "mathtext.cal": "Arial:italic",
+          "mathtext.fallback": "stixsans"
+        },
+        "summary": {
+          "best_variant": "subject+aug",
+          "best_worst_decile": 0.8469283205085314,
+          "lift_vs_global": 0.05751200753525465,
+          "mean_cost": 0.023047700931990822,
+          "note": "worst-decile = 最差 10% 被试（30 折取 3 人）的平均准确率"
+        },
+        "variants": [
+          "global",
+          "per-window",
+          "per-subject",
+          "augment",
+          "subject+aug"
+        ]
+      }
+    },
+    {
+      "figure": "fig8_budget_curve",
+      "script": "code/exp/exp11_budget_curve.py",
+      "script_md5": "e26e1ab9f9fda8bfefac7b3f6c647bbe",
+      "cmd": "python code/exp/exp11_budget_curve.py",
+      "inputs": [
+        {
+          "path": "results/exp1/search_compare.json",
+          "exists": true,
+          "bytes": 77075,
+          "md5": "8b7ef5862ec1f01d010c20ee10ff455c",
+          "mtime": "2026-10-25 12:21:50"
+        },
+        {
+          "path": "results/exp1_wisdm/search_compare.json",
+          "exists": true,
+          "bytes": 92789,
+          "md5": "106e366e5ccc5e1d0f62985537bac9eb",
+          "mtime": "2026-10-25 17:39:38"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig8_budget_curve.png",
+          "exists": true,
+          "bytes": 83358,
+          "md5": "08f3065485b38d0774d9e9d84de941da",
+          "mtime": "2026-10-29 17:05:39"
+        },
+        {
+          "path": "results/figures/fig8_budget_curve.pdf",
+          "exists": true,
+          "bytes": 23779,
+          "md5": "f1757ae83341f8eaa96b9cc2320cd1bc",
+          "mtime": "2026-10-29 17:05:40"
+        },
+        {
+          "path": "results/figures/fig8_budget_curve.eps",
+          "exists": true,
+          "bytes": 63259,
+          "md5": "7e938d7191ac2e9f77800edd83233a1a",
+          "mtime": "2026-10-29 17:05:41"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-29 17:05:41",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {
+        "budgets": [
+          5000,
+          10000,
+          25000,
+          50000,
+          100000,
+          150000,
+          250000
+        ],
+        "definition": "attain(B) = max val_macroF1 s.t. params<=B over the archived Pareto set of an equal 72-eval budget"
+      }
+    },
+    {
+      "figure": "fig9_rule_gain.png",
+      "script": "code/exp/exp14_report.py",
+      "script_md5": "bab882b65849610d2e25c872300e7369",
+      "cmd": null,
+      "inputs": [
+        {
+          "path": "results/exp14/rule_compare.json",
+          "exists": true,
+          "bytes": 167533,
+          "md5": "81c6f72e7b5d4465b057fc68dfcc1e36",
+          "mtime": "2026-10-26 06:20:56"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "results/figures/fig9_rule_gain.png",
+          "exists": true,
+          "bytes": 60381,
+          "md5": "73a702f71b664722bdf7ac0d9a44365a",
+          "mtime": "2026-10-27 10:02:52"
+        },
+        {
+          "path": "results/figures/fig9_rule_gain.pdf",
+          "exists": true,
+          "bytes": 22430,
+          "md5": "5fcccfa0f515a27ff2cc28d01b043a1f",
+          "mtime": "2026-10-27 10:02:52"
+        },
+        {
+          "path": "results/figures/fig9_rule_gain.eps",
+          "exists": true,
+          "bytes": 57397,
+          "md5": "95b66633a699b8e5fe87dc095b2bcce4",
+          "mtime": "2026-10-27 10:02:52"
+        }
+      ],
+      "matplotlib": "3.11.2",
+      "created_at": "2026-10-27 10:02:52",
+      "note": "同输入数据 + 同脚本 + 同 matplotlib 版本 → 图可完全重画",
+      "extra": {}
+    }
+  ]
+}

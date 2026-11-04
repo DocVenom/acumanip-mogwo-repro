@@ -1,0 +1,383 @@
+{
+ "figure": "fig14_cross_searcher",
+ "capture": "matplotlib artist capture（图上实际绘制的坐标与样式）",
+ "saved_as": "fig14_cross_searcher.png",
+ "figsize_in": [
+  9.4,
+  3.6
+ ],
+ "dpi": 160.0,
+ "suptitle": null,
+ "fig_texts": [],
+ "axes": [
+  {
+   "index": 0,
+   "title": "(a) drift ratio per guided searcher,\nuniform vs LHS initialisation",
+   "xlabel": "",
+   "ylabel": "seed-to-seed drift\n(param median ratio, max/min)",
+   "xscale": "linear",
+   "yscale": "linear",
+   "xlim": [
+    -0.254,
+    2.254
+   ],
+   "ylim": [
+    0.72,
+    3.6544784124430145
+   ],
+   "lines": [
+    {
+     "label": "_child0",
+     "x": [
+      -0.14,
+      0.14
+     ],
+     "y": [
+      3.2044784124430143,
+      1.3109369639407016
+     ],
+     "linestyle": "-",
+     "color": "0.75",
+     "linewidth": 1.0,
+     "marker": "None",
+     "alpha": null,
+     "zorder": 1
+    },
+    {
+     "label": "_child5",
+     "x": [
+      0.86,
+      1.1400000000000001
+     ],
+     "y": [
+      2.4343246014729187,
+      1.5849230726849493
+     ],
+     "linestyle": "-",
+     "color": "0.75",
+     "linewidth": 1.0,
+     "marker": "None",
+     "alpha": null,
+     "zorder": 1
+    },
+    {
+     "label": "_child10",
+     "x": [
+      1.8599999999999999,
+      2.14
+     ],
+     "y": [
+      2.5589230542886567,
+      1.1305681441361777
+     ],
+     "linestyle": "-",
+     "color": "0.75",
+     "linewidth": 1.0,
+     "marker": "None",
+     "alpha": null,
+     "zorder": 1
+    },
+    {
+     "label": "_child15",
+     "x": [
+      0,
+      1
+     ],
+     "y": 1.5,
+     "linestyle": "--",
+     "color": "0.55",
+     "linewidth": 0.9,
+     "marker": "None",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    }
+   ],
+   "bars": [],
+   "scatter": [
+    {
+     "xy": [
+      [
+       -0.14,
+       3.2044784124430143
+      ]
+     ],
+     "color": "[[0.77254902 0.18823529 0.18823529 1.        ]]",
+     "label": null,
+     "sizes": [
+      58.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       0.14,
+       1.3109369639407016
+      ]
+     ],
+     "color": "[[0.16862745 0.42352941 0.69019608 1.        ]]",
+     "label": null,
+     "sizes": [
+      58.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       0.86,
+       2.4343246014729187
+      ]
+     ],
+     "color": "[[0.77254902 0.18823529 0.18823529 1.        ]]",
+     "label": null,
+     "sizes": [
+      58.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       1.1400000000000001,
+       1.5849230726849493
+      ]
+     ],
+     "color": "[[0.16862745 0.42352941 0.69019608 1.        ]]",
+     "label": null,
+     "sizes": [
+      58.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       1.8599999999999999,
+       2.5589230542886567
+      ]
+     ],
+     "color": "[[0.77254902 0.18823529 0.18823529 1.        ]]",
+     "label": null,
+     "sizes": [
+      58.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       2.14,
+       1.1305681441361777
+      ]
+     ],
+     "color": "[[0.16862745 0.42352941 0.69019608 1.        ]]",
+     "label": null,
+     "sizes": [
+      58.0
+     ]
+    }
+   ],
+   "errorbars": [],
+   "texts": [
+    {
+     "text": "3.20×",
+     "xy": [
+      0,
+      9
+     ],
+     "color": "black",
+     "fontsize": 7.5
+    },
+    {
+     "text": "1.31×",
+     "xy": [
+      0,
+      -14
+     ],
+     "color": "black",
+     "fontsize": 7.5
+    },
+    {
+     "text": "2.43×",
+     "xy": [
+      0,
+      9
+     ],
+     "color": "black",
+     "fontsize": 7.5
+    },
+    {
+     "text": "1.58×",
+     "xy": [
+      0,
+      -14
+     ],
+     "color": "black",
+     "fontsize": 7.5
+    },
+    {
+     "text": "2.56×",
+     "xy": [
+      0,
+      9
+     ],
+     "color": "black",
+     "fontsize": 7.5
+    },
+    {
+     "text": "1.13×",
+     "xy": [
+      0,
+      -14
+     ],
+     "color": "black",
+     "fontsize": 7.5
+    },
+    {
+     "text": "1.5× threshold",
+     "xy": [
+      2.45,
+      1.57
+     ],
+     "color": "0.4",
+     "fontsize": 7.0
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "title": "(b) benefit vs how much drift there is to remove\nSpearman ρ = +0.80, monotone = False",
+   "xlabel": "baseline drift of the UNTREATED arm (ratio)",
+   "ylabel": "Δ test accuracy, LHS − uniform (pp)",
+   "xscale": "linear",
+   "yscale": "linear",
+   "xlim": [
+    1.0792578588796142,
+    3.397680280948778
+   ],
+   "ylim": [
+    -2.1193967850632545,
+    1.0984768112625425
+   ],
+   "lines": [
+    {
+     "label": "_child0",
+     "x": [
+      0,
+      1
+     ],
+     "y": 0,
+     "linestyle": "-",
+     "color": "0.6",
+     "linewidth": 0.8,
+     "marker": "None",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_child1",
+     "x": 2.0,
+     "y": [
+      0,
+      1
+     ],
+     "linestyle": "--",
+     "color": "0.55",
+     "linewidth": 0.9,
+     "marker": "None",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    }
+   ],
+   "bars": [],
+   "scatter": [
+    {
+     "xy": [
+      [
+       1.272459727385378,
+       -1.7674418604651205
+      ],
+      [
+       2.4343246014729187,
+       -0.488632507634883
+      ],
+      [
+       2.5589230542886567,
+       -1.0179843909060058
+      ],
+      [
+       3.2044784124430143,
+       0.7465218866644084
+      ]
+     ],
+     "color": "[[0.18431373 0.52156863 0.35294118 1.        ]]",
+     "label": null,
+     "sizes": [
+      52.0
+     ]
+    }
+   ],
+   "errorbars": [],
+   "texts": [
+    {
+     "text": "MOGWO (WISDM)",
+     "xy": [
+      6,
+      -3
+     ],
+     "color": "0.25",
+     "fontsize": 7.0
+    },
+    {
+     "text": "MOPSO",
+     "xy": [
+      6,
+      -3
+     ],
+     "color": "0.25",
+     "fontsize": 7.0
+    },
+    {
+     "text": "NSGA-II",
+     "xy": [
+      6,
+      -3
+     ],
+     "color": "0.25",
+     "fontsize": 7.0
+    },
+    {
+     "text": "MOGWO",
+     "xy": [
+      6,
+      -3
+     ],
+     "color": "0.25",
+     "fontsize": 7.0
+    }
+   ]
+  }
+ ],
+ "script": "code/exp/exp18_report.py",
+ "sources": [
+  {
+   "path": "results/exp18/drift.json",
+   "md5": "552f5a23f8ff53191fb4a54ac22e2f4f"
+  },
+  {
+   "path": "results/exp18/pool_select.json",
+   "md5": "0a11049037dea548de3365eeaa2b80ff"
+  },
+  {
+   "path": "results/exp16/drift.json",
+   "md5": "04bd742817e1afc3716f440bbb431fc1"
+  },
+  {
+   "path": "results/exp16/pool_select.json",
+   "md5": "66578dc4863362679bf8a70f7e945089"
+  }
+ ],
+ "published_image": {
+  "path": "results/figures/fig14_cross_searcher.png",
+  "md5": "7c18c35babfe007bf05a7cde134b3e57"
+ }
+}

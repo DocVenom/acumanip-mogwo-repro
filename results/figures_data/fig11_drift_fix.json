@@ -1,0 +1,611 @@
+{
+ "figure": "fig11_drift_fix",
+ "capture": "matplotlib artist capture（图上实际绘制的坐标与样式）",
+ "saved_as": "fig11_drift_fix.png",
+ "figsize_in": [
+  11.6,
+  4.2
+ ],
+ "dpi": 160,
+ "suptitle": null,
+ "fig_texts": [
+  {
+   "text": "Dashed red lines are the pre-registered P2″ thresholds:  (a) seed-to-seed parameter-median ratio ≤ 1.5× and IoU ≥ 0.60;   (b) official test accuracy ≥ 95.58% with SD ≤ 1.0 pp.",
+   "xy": [
+    0.5,
+    -0.02
+   ]
+  }
+ ],
+ "axes": [
+  {
+   "index": 0,
+   "title": "(a) Can the drift be suppressed inside a 72-eval budget?",
+   "xlabel": "Seed-to-seed parameter-median ratio  (max / min)",
+   "ylabel": "",
+   "xscale": "linear",
+   "yscale": "linear",
+   "xlim": [
+    0.0,
+    4.665720568517029
+   ],
+   "ylim": [
+    6.641000000000001,
+    -0.641
+   ],
+   "lines": [
+    {
+     "label": "_child7",
+     "x": 1.5,
+     "y": [
+      0,
+      1
+     ],
+     "linestyle": "--",
+     "color": "#c0392b",
+     "linewidth": 1.2,
+     "marker": "None",
+     "alpha": null,
+     "zorder": 0,
+     "role": "vline"
+    }
+   ],
+   "bars": [
+    {
+     "x": 0.0,
+     "y": -0.31,
+     "width": 3.2044784124430143,
+     "height": 0.62,
+     "color": "#95a5a6",
+     "alpha": null
+    },
+    {
+     "x": 0.0,
+     "y": 0.69,
+     "width": 1.5892712550607286,
+     "height": 0.62,
+     "color": "#95a5a6",
+     "alpha": null
+    },
+    {
+     "x": 0.0,
+     "y": 1.69,
+     "width": 2.41359561249064,
+     "height": 0.62,
+     "color": "#95a5a6",
+     "alpha": null
+    },
+    {
+     "x": 0.0,
+     "y": 2.69,
+     "width": 1.3109369639407016,
+     "height": 0.62,
+     "color": "#2471a3",
+     "alpha": null
+    },
+    {
+     "x": 0.0,
+     "y": 3.69,
+     "width": 1.3783621826150976,
+     "height": 0.62,
+     "color": "#2471a3",
+     "alpha": null
+    },
+    {
+     "x": 0.0,
+     "y": 4.69,
+     "width": 1.1239250417147992,
+     "height": 0.62,
+     "color": "#2471a3",
+     "alpha": null
+    },
+    {
+     "x": 0.0,
+     "y": 5.69,
+     "width": 1.447182404807645,
+     "height": 0.62,
+     "color": "#2471a3",
+     "alpha": null
+    }
+   ],
+   "scatter": [],
+   "errorbars": [],
+   "texts": [
+    {
+     "text": "3.20×  (IoU 0.29)",
+     "xy": [
+      3.5890158219361763,
+      0
+     ],
+     "color": "black",
+     "fontsize": 6.8
+    },
+    {
+     "text": "1.59×  (IoU 0.51)",
+     "xy": [
+      3.5890158219361763,
+      1
+     ],
+     "color": "black",
+     "fontsize": 6.8
+    },
+    {
+     "text": "2.41×  (IoU 0.60)",
+     "xy": [
+      3.5890158219361763,
+      2
+     ],
+     "color": "black",
+     "fontsize": 6.8
+    },
+    {
+     "text": "1.31×  (IoU 0.75)",
+     "xy": [
+      3.5890158219361763,
+      3
+     ],
+     "color": "black",
+     "fontsize": 6.8
+    },
+    {
+     "text": "1.38×  (IoU 0.72)",
+     "xy": [
+      3.5890158219361763,
+      4
+     ],
+     "color": "black",
+     "fontsize": 6.8
+    },
+    {
+     "text": "1.12×  (IoU 0.69)",
+     "xy": [
+      3.5890158219361763,
+      5
+     ],
+     "color": "black",
+     "fontsize": 6.8
+    },
+    {
+     "text": "1.45×  (IoU 0.80)",
+     "xy": [
+      3.5890158219361763,
+      6
+     ],
+     "color": "black",
+     "fontsize": 6.8
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "title": "(b) Does the accuracy come back once the drift is gone?",
+   "xlabel": "Official test accuracy (%), mean ± SD over 3 seeds",
+   "ylabel": "",
+   "xscale": "linear",
+   "yscale": "linear",
+   "xlim": [
+    92.2419039352998,
+    98.04128812617812
+   ],
+   "ylim": [
+    6.3,
+    -0.30000000000000004
+   ],
+   "lines": [
+    {
+     "label": "_nolegend_",
+     "x": [
+      94.57074991516797
+     ],
+     "y": [
+      0.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 3.1
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      92.39190393529981
+     ],
+     "y": [
+      0.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      96.74959589503612
+     ],
+     "y": [
+      0.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.69053274516457
+     ],
+     "y": [
+      1.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 3.1
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.12987066026949
+     ],
+     "y": [
+      1.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      96.25119483005966
+     ],
+     "y": [
+      1.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.20416242506504
+     ],
+     "y": [
+      2.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 3.1
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      94.07142975876987
+     ],
+     "y": [
+      2.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      96.3368950913602
+     ],
+     "y": [
+      2.0
+     ],
+     "linestyle": "None",
+     "color": "#7f8c8d",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.86019681031557
+     ],
+     "y": [
+      3.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 3.1
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.6376844749134
+     ],
+     "y": [
+      3.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      96.08270914571774
+     ],
+     "y": [
+      3.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.67922180748783
+     ],
+     "y": [
+      4.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 3.1
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      94.87169690086634
+     ],
+     "y": [
+      4.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      96.48674671410933
+     ],
+     "y": [
+      4.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      94.4802624137541
+     ],
+     "y": [
+      5.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 3.1
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      93.04168188253956
+     ],
+     "y": [
+      5.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.91884294496865
+     ],
+     "y": [
+      5.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.60004524375071
+     ],
+     "y": [
+      6.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 3.1
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.3499225835596
+     ],
+     "y": [
+      6.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      95.85016790394182
+     ],
+     "y": [
+      6.0
+     ],
+     "linestyle": "None",
+     "color": "#2471a3",
+     "linewidth": 1.0,
+     "marker": "|",
+     "alpha": null,
+     "zorder": 3
+    },
+    {
+     "label": "_child28",
+     "x": 95.58,
+     "y": [
+      0,
+      1
+     ],
+     "linestyle": "--",
+     "color": "#c0392b",
+     "linewidth": 1.2,
+     "marker": "None",
+     "alpha": null,
+     "zorder": 0,
+     "role": "vline"
+    }
+   ],
+   "bars": [],
+   "scatter": [],
+   "errorbars": [],
+   "texts": [
+    {
+     "text": "94.57",
+     "xy": [
+      97.04959589503612,
+      0
+     ],
+     "color": "black",
+     "fontsize": 6.9
+    },
+    {
+     "text": "95.69",
+     "xy": [
+      97.04959589503612,
+      1
+     ],
+     "color": "black",
+     "fontsize": 6.9
+    },
+    {
+     "text": "95.20",
+     "xy": [
+      97.04959589503612,
+      2
+     ],
+     "color": "black",
+     "fontsize": 6.9
+    },
+    {
+     "text": "95.86",
+     "xy": [
+      97.04959589503612,
+      3
+     ],
+     "color": "black",
+     "fontsize": 6.9
+    },
+    {
+     "text": "95.68",
+     "xy": [
+      97.04959589503612,
+      4
+     ],
+     "color": "black",
+     "fontsize": 6.9
+    },
+    {
+     "text": "94.48",
+     "xy": [
+      97.04959589503612,
+      5
+     ],
+     "color": "black",
+     "fontsize": 6.9
+    },
+    {
+     "text": "95.60",
+     "xy": [
+      97.04959589503612,
+      6
+     ],
+     "color": "black",
+     "fontsize": 6.9
+    }
+   ]
+  }
+ ],
+ "script": "code/exp/exp15_report.py",
+ "sources": [
+  {
+   "path": "results/exp15/pool_select.json",
+   "md5": "2ce21cb1e963c15949c5cb75d445f8fd"
+  },
+  {
+   "path": "results/exp15/drift.json",
+   "md5": "3c1480b1dd00717831bd8d53d2fd4b2f"
+  }
+ ],
+ "published_image": {
+  "path": "results/figures/fig11_drift_fix.png",
+  "md5": "52d8c64942c2229cd8b2fc68d71be038"
+ }
+}

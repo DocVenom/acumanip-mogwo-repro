@@ -1,0 +1,439 @@
+{
+ "figure": "fig15_sota_compare",
+ "capture": "matplotlib artist capture（图上实际绘制的坐标与样式）",
+ "saved_as": "fig15_sota_compare.png",
+ "figsize_in": [
+  12.2,
+  4.6
+ ],
+ "dpi": 150.0,
+ "suptitle": null,
+ "fig_texts": [],
+ "axes": [
+  {
+   "index": 0,
+   "title": "(a) Equal-data vs. reproduced published baselines",
+   "xlabel": "",
+   "ylabel": "Test accuracy (official test split)",
+   "xscale": "linear",
+   "yscale": "linear",
+   "xlim": [
+    -0.5409999999999999,
+    4.5409999999999995
+   ],
+   "ylim": [
+    0.88,
+    0.995
+   ],
+   "lines": [
+    {
+     "label": "_nolegend_",
+     "x": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0
+     ],
+     "y": [
+      0.9077027485578555,
+      0.9321343739395996,
+      0.909243507838821,
+      0.9403294608086199,
+      0.9298776087963833
+     ],
+     "linestyle": "None",
+     "color": "C0",
+     "linewidth": 1.5,
+     "marker": "_",
+     "alpha": null,
+     "zorder": 2
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0
+     ],
+     "y": [
+      0.9077027485578555,
+      0.9321343739395996,
+      0.9131747706364646,
+      0.9445251936422341,
+      0.951696873728218
+     ],
+     "linestyle": "None",
+     "color": "C0",
+     "linewidth": 1.5,
+     "marker": "_",
+     "alpha": null,
+     "zorder": 2
+    },
+    {
+     "label": "_child13",
+     "x": [
+      0,
+      1
+     ],
+     "y": 0.9776,
+     "linestyle": "--",
+     "color": "#7f8c8d",
+     "linewidth": 0.9,
+     "marker": "None",
+     "alpha": 0.8,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_child15",
+     "x": [
+      0,
+      1
+     ],
+     "y": 0.9637,
+     "linestyle": "--",
+     "color": "#7f8c8d",
+     "linewidth": 0.9,
+     "marker": "None",
+     "alpha": 0.8,
+     "zorder": 2,
+     "role": "hline"
+    }
+   ],
+   "bars": [
+    {
+     "x": -0.31,
+     "y": 0.0,
+     "width": 0.62,
+     "height": 0.9077027485578555,
+     "color": "#2980b9",
+     "alpha": 0.88
+    },
+    {
+     "x": 0.69,
+     "y": 0.0,
+     "width": 0.62,
+     "height": 0.9321343739395996,
+     "color": "#5dade2",
+     "alpha": 0.88
+    },
+    {
+     "x": 1.69,
+     "y": 0.0,
+     "width": 0.62,
+     "height": 0.9112091392376428,
+     "color": "#1e8449",
+     "alpha": 0.88
+    },
+    {
+     "x": 2.69,
+     "y": 0.0,
+     "width": 0.62,
+     "height": 0.942427327225427,
+     "color": "#52be80",
+     "alpha": 0.88
+    },
+    {
+     "x": 3.69,
+     "y": 0.0,
+     "width": 0.62,
+     "height": 0.9407872412623006,
+     "color": "#c0392b",
+     "alpha": 0.88
+    }
+   ],
+   "scatter": [],
+   "errorbars": [],
+   "texts": [
+    {
+     "text": "+3.31 pp",
+     "xy": [
+      0.0,
+      0.9097027485578555
+     ],
+     "color": "#7b241c",
+     "fontsize": 8.0
+    },
+    {
+     "text": "+0.87 pp",
+     "xy": [
+      1.0,
+      0.9341343739395996
+     ],
+     "color": "#7b241c",
+     "fontsize": 8.0
+    },
+    {
+     "text": "+2.96 pp",
+     "xy": [
+      2.0,
+      0.9132091392376428
+     ],
+     "color": "#7b241c",
+     "fontsize": 8.0
+    },
+    {
+     "text": "−0.16 pp",
+     "xy": [
+      3.0,
+      0.944427327225427
+     ],
+     "color": "#7b241c",
+     "fontsize": 8.0
+    },
+    {
+     "text": "0.9408",
+     "xy": [
+      4.0,
+      0.9541968737282179
+     ],
+     "color": "#7b241c",
+     "fontsize": 8.0
+    },
+    {
+     "text": "rTsfNet 97.76 (reported)",
+     "xy": [
+      -0.42,
+      0.9786
+     ],
+     "color": "#7f8c8d",
+     "fontsize": 7.0
+    },
+    {
+     "text": "PRISM 96.37 (reported,\n80/10/10 random split)",
+     "xy": [
+      -0.42,
+      0.9647
+     ],
+     "color": "#7f8c8d",
+     "fontsize": 7.0
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "title": "(b) Accuracy vs. parameters",
+   "xlabel": "Learnable parameters (log scale)",
+   "ylabel": "Test accuracy (official test split)",
+   "xscale": "log",
+   "yscale": "linear",
+   "xlim": [
+    14000.0,
+    45000.0
+   ],
+   "ylim": [
+    0.88,
+    0.99
+   ],
+   "lines": [
+    {
+     "label": "_nolegend_",
+     "x": [
+      33314.0
+     ],
+     "y": [
+      0.9298776087963833
+     ],
+     "linestyle": "None",
+     "color": "C0",
+     "linewidth": 1.5,
+     "marker": "_",
+     "alpha": null,
+     "zorder": 2
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      33314.0
+     ],
+     "y": [
+      0.951696873728218
+     ],
+     "linestyle": "None",
+     "color": "C0",
+     "linewidth": 1.5,
+     "marker": "_",
+     "alpha": null,
+     "zorder": 2
+    },
+    {
+     "label": "_child13",
+     "x": [
+      0,
+      1
+     ],
+     "y": 0.9776,
+     "linestyle": "--",
+     "color": "#7f8c8d",
+     "linewidth": 0.9,
+     "marker": "None",
+     "alpha": 0.8,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_child14",
+     "x": [
+      0,
+      1
+     ],
+     "y": 0.9637,
+     "linestyle": "--",
+     "color": "#7f8c8d",
+     "linewidth": 0.9,
+     "marker": "None",
+     "alpha": 0.8,
+     "zorder": 2,
+     "role": "hline"
+    }
+   ],
+   "bars": [],
+   "scatter": [
+    {
+     "xy": [
+      [
+       16128.0,
+       0.9077027485578555
+      ]
+     ],
+     "color": "[[0.16078431 0.50196078 0.7254902  1.        ]]",
+     "label": null,
+     "sizes": [
+      90.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       16128.0,
+       0.9321343739395996
+      ]
+     ],
+     "color": "[[0.36470588 0.67843137 0.88627451 1.        ]]",
+     "label": null,
+     "sizes": [
+      90.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       35037.0,
+       0.9112091392376428
+      ]
+     ],
+     "color": "[[0.11764706 0.51764706 0.28627451 1.        ]]",
+     "label": null,
+     "sizes": [
+      90.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       35037.0,
+       0.942427327225427
+      ]
+     ],
+     "color": "[[0.32156863 0.74509804 0.50196078 1.        ]]",
+     "label": null,
+     "sizes": [
+      90.0
+     ]
+    },
+    {
+     "xy": [
+      [
+       33314.0,
+       0.9407872412623006
+      ]
+     ],
+     "color": "[[0.75294118 0.22352941 0.16862745 1.        ]]",
+     "label": null,
+     "sizes": [
+      90.0
+     ]
+    }
+   ],
+   "errorbars": [],
+   "texts": [
+    {
+     "text": "0.9077",
+     "xy": [
+      8,
+      6
+     ],
+     "color": "#333",
+     "fontsize": 7.4
+    },
+    {
+     "text": "0.9321",
+     "xy": [
+      8,
+      6
+     ],
+     "color": "#333",
+     "fontsize": 7.4
+    },
+    {
+     "text": "0.9112",
+     "xy": [
+      8,
+      14
+     ],
+     "color": "#333",
+     "fontsize": 7.4
+    },
+    {
+     "text": "0.9424",
+     "xy": [
+      8,
+      14
+     ],
+     "color": "#333",
+     "fontsize": 7.4
+    },
+    {
+     "text": "0.9408",
+     "xy": [
+      8,
+      -6
+     ],
+     "color": "#333",
+     "fontsize": 7.4
+    },
+    {
+     "text": "rTsfNet 97.76 / PRISM 96.37\n(reported, random split)",
+     "xy": [
+      17500.0,
+      0.9815
+     ],
+     "color": "#7f8c8d",
+     "fontsize": 7.0
+    }
+   ]
+  }
+ ],
+ "script": "code/exp/make_fig15.py",
+ "sources": [
+  {
+   "path": "results/exp19/minirocket_sota.json",
+   "md5": "096d9fc32d114f02b9f15a3ac293f3ee"
+  },
+  {
+   "path": "results/exp20/prism_sota.json",
+   "md5": "3a8f878ea6de070b2446cab1ba7fd3bb"
+  },
+  {
+   "path": "results/figures/_constants.json",
+   "md5": "e12d4d321757ec68caa9b6bcab281f51"
+  }
+ ],
+ "published_image": {
+  "path": "results/figures/fig15_sota_compare.png",
+  "md5": "5f31a88ae67409ed808ebd898dc0943b"
+ }
+}

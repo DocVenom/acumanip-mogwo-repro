@@ -1,0 +1,44 @@
+{
+  "_purpose": "图中出现、但不存于任何实验 JSON 的参考线数值。每一项记录取值、画在哪里、出处，以及能否从本仓库重算。原先这些数字直接写死在绘图脚本里（make_fig15.py / exp16_report.py），2026-11-01 迁入本文件，脚本改为读取。",
+  "_convention": "value 为脚本直接使用的数值；display_* 为图上显示的形式。reproducible_from_repo=false 表示本仓库没有产出该数字的实验代码，无法重算，只能引用。",
+  "generated_by": "人工整理，2026-11-01",
+  "constants": {
+    "rtsfnet_reported_acc": {
+      "value": 0.9776,
+      "display_pct": 97.76,
+      "unit": "accuracy",
+      "used_in": [
+        "fig15_sota_compare (a) 顶部虚线",
+        "fig15_sota_compare (b) 顶部虚线"
+      ],
+      "provenance": "UCI HAR 排行榜数值，正文 §6.6 引用为 97.76%（rTsfNet）。本仓库未复现该方法，该值只作量级参照。",
+      "reproducible_from_repo": false,
+      "source_json": null
+    },
+    "prism_reported_acc": {
+      "value": 0.9637,
+      "display_pct": 96.37,
+      "unit": "accuracy",
+      "used_in": [
+        "fig15_sota_compare (a) 虚线，标注 80/10/10 random split",
+        "fig15_sota_compare (b) 虚线"
+      ],
+      "provenance": "PRISM 的论文报告值（参考文献 [31]），口径是 80/10/10 随机切分，与本文官方被试不交叠划分不可比。仓库内只用其复现值（exp20/prism_sota.json），不用该报告值做同口径点。",
+      "reproducible_from_repo": false,
+      "source_json": null
+    },
+    "reference_8d_pct": {
+      "value": 95.58,
+      "display": "95.58%",
+      "unit": "percent accuracy",
+      "used_in": [
+        "fig12_transfer (b) 竖直虚线",
+        "fig12_transfer 底部脚注文字（8-D MOGWO reference）"
+      ],
+      "provenance": "八维参考水平，正文与补充材料引用为 0.9558（Table S7 的八维参照）。原为 exp16_report.py 中的字面量；exp16 归档 JSON 未以字段形式保存该值，故此处单列。",
+      "reproducible_from_repo": false,
+      "source_json": null,
+      "caveat": "若日后把该参照值写入 exp14/exp15 的 select 结果，应改为从对应 JSON 读取，并删除本条。"
+    }
+  }
+}

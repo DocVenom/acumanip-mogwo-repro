@@ -1,0 +1,631 @@
+{
+ "figure": "fig7_cross_subject",
+ "capture": "matplotlib artist capture（图上实际绘制的坐标与样式）",
+ "saved_as": "fig7_cross_subject.png",
+ "figsize_in": [
+  11.5,
+  4.3
+ ],
+ "dpi": 150.0,
+ "suptitle": null,
+ "fig_texts": [],
+ "axes": [
+  {
+   "index": 0,
+   "title": "(a) Distribution over 30 held-out subjects",
+   "xlabel": "",
+   "ylabel": "LOSO accuracy (per subject)",
+   "xscale": "linear",
+   "yscale": "linear",
+   "xlim": [
+    0.5,
+    5.5
+   ],
+   "ylim": [
+    0.6,
+    1.03
+   ],
+   "lines": [
+    {
+     "label": "_nolegend_",
+     "x": 1.0,
+     "y": [
+      0.9011991217699713,
+      0.7896174863387978
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 1.0,
+     "y": [
+      0.9963428943937418,
+      1.0
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      0.8625,
+      1.1375
+     ],
+     "y": 0.7896174863387978,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      0.8625,
+      1.1375
+     ],
+     "y": 1.0,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      0.725,
+      1.275
+     ],
+     "y": 0.9666969116510401,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.2,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2.1,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      1.0
+     ],
+     "y": [
+      0.7551020408163265
+     ],
+     "linestyle": "None",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 2
+    },
+    {
+     "label": "_nolegend_",
+     "x": 2.0,
+     "y": [
+      0.8818818587593109,
+      0.8142414860681114
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 2.0,
+     "y": [
+      0.9349435611117853,
+      0.9711286089238845
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      1.8625,
+      2.1375
+     ],
+     "y": 0.8142414860681114,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      1.8625,
+      2.1375
+     ],
+     "y": 0.9711286089238845,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      1.725,
+      2.275
+     ],
+     "y": 0.9099022201188233,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.2,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2.1,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 2.0,
+     "y": [
+      0.7430555555555556,
+      0.6802721088435374,
+      0.76775956284153
+     ],
+     "linestyle": "None",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 3.0,
+     "y": [
+      0.9368571521569309,
+      0.8472222222222222
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 3.0,
+     "y": [
+      0.9993872549019608,
+      1.0
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      2.8625,
+      3.1375
+     ],
+     "y": 0.8472222222222222,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      2.8625,
+      3.1375
+     ],
+     "y": 1.0,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      2.725,
+      3.275
+     ],
+     "y": 0.9743146638307929,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.2,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2.1,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 3.0,
+     "y": [
+      0.717687074829932,
+      0.8114754098360656
+     ],
+     "linestyle": "None",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 4.0,
+     "y": [
+      0.9121211848545925,
+      0.8018575851393189
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 4.0,
+     "y": [
+      0.9944209039548023,
+      1.0
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      3.8625,
+      4.1375
+     ],
+     "y": 0.8018575851393189,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      3.8625,
+      4.1375
+     ],
+     "y": 1.0,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      3.725,
+      4.275
+     ],
+     "y": 0.9780214905362776,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.2,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2.1,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      4.0
+     ],
+     "y": [
+      0.7551020408163265
+     ],
+     "linestyle": "None",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 2
+    },
+    {
+     "label": "_nolegend_",
+     "x": 5.0,
+     "y": [
+      0.9428884478073214,
+      0.8645833333333334
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 5.0,
+     "y": [
+      0.9974395149826577,
+      1.0
+     ],
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      4.8625,
+      5.1375
+     ],
+     "y": 0.8645833333333334,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      4.8625,
+      5.1375
+     ],
+     "y": 1.0,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": [
+      4.725,
+      5.275
+     ],
+     "y": 0.9894894757961551,
+     "linestyle": "-",
+     "color": "black",
+     "linewidth": 1.2,
+     "marker": "",
+     "alpha": null,
+     "zorder": 2.1,
+     "role": "hline"
+    },
+    {
+     "label": "_nolegend_",
+     "x": 5.0,
+     "y": [
+      0.8401360544217688,
+      0.8360655737704918
+     ],
+     "linestyle": "None",
+     "color": "black",
+     "linewidth": 1.0,
+     "marker": "o",
+     "alpha": null,
+     "zorder": 2,
+     "role": "vline"
+    },
+    {
+     "label": "_child35",
+     "x": [
+      0,
+      1
+     ],
+     "y": 0.9,
+     "linestyle": "--",
+     "color": "#333",
+     "linewidth": 0.8,
+     "marker": "None",
+     "alpha": 0.6,
+     "zorder": 2,
+     "role": "hline"
+    }
+   ],
+   "bars": [],
+   "scatter": [],
+   "errorbars": [],
+   "texts": [
+    {
+     "text": "0.90",
+     "xy": [
+      5.42,
+      0.901
+     ],
+     "color": "#333",
+     "fontsize": 7.5
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "title": "(b) Worst 10% subjects (3 of 30)",
+   "xlabel": "",
+   "ylabel": "Worst-decile accuracy",
+   "xscale": "linear",
+   "yscale": "linear",
+   "xlim": [
+    -0.53,
+    4.529999999999999
+   ],
+   "ylim": [
+    0.6503624090802078,
+    0.9069283205085314
+   ],
+   "lines": [],
+   "bars": [
+    {
+     "x": -0.3,
+     "y": 0.0,
+     "width": 0.6,
+     "height": 0.7894163129732767,
+     "color": "#7f8c8d",
+     "alpha": 0.85
+    },
+    {
+     "x": 0.7,
+     "y": 0.0,
+     "width": 0.6,
+     "height": 0.7303624090802078,
+     "color": "#2980b9",
+     "alpha": 0.85
+    },
+    {
+     "x": 1.7,
+     "y": 0.0,
+     "width": 0.6,
+     "height": 0.7921282356294066,
+     "color": "#c0392b",
+     "alpha": 0.85
+    },
+    {
+     "x": 2.7,
+     "y": 0.0,
+     "width": 0.6,
+     "height": 0.7867461048267451,
+     "color": "#e67e22",
+     "alpha": 0.85
+    },
+    {
+     "x": 3.7,
+     "y": 0.0,
+     "width": 0.6,
+     "height": 0.8469283205085314,
+     "color": "#8e44ad",
+     "alpha": 0.85
+    }
+   ],
+   "scatter": [],
+   "errorbars": [],
+   "texts": [
+    {
+     "text": "0.789",
+     "xy": [
+      0.0,
+      0.7934163129732767
+     ],
+     "color": "black",
+     "fontsize": 7.8
+    },
+    {
+     "text": "0.730\n(-5.9)",
+     "xy": [
+      1.0,
+      0.7343624090802078
+     ],
+     "color": "black",
+     "fontsize": 7.8
+    },
+    {
+     "text": "0.792\n(+0.3)",
+     "xy": [
+      2.0,
+      0.7961282356294066
+     ],
+     "color": "black",
+     "fontsize": 7.8
+    },
+    {
+     "text": "0.787\n(-0.3)",
+     "xy": [
+      3.0,
+      0.7907461048267451
+     ],
+     "color": "black",
+     "fontsize": 7.8
+    },
+    {
+     "text": "0.847\n(+5.8)",
+     "xy": [
+      4.0,
+      0.8509283205085314
+     ],
+     "color": "black",
+     "fontsize": 7.8
+    }
+   ]
+  }
+ ],
+ "script": "code/exp/make_fig7.py",
+ "sources": [
+  {
+   "path": "results/exp8/cross_subject.json",
+   "md5": "2b24b0ebd70907927f3eda80b9524dcc"
+  }
+ ],
+ "published_image": {
+  "path": "results/figures/fig7_cross_subject.png",
+  "md5": "d1427cf67c50902bba916b6d53fe66f2"
+ }
+}
