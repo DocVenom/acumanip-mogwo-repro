@@ -39,7 +39,7 @@ importing any of our model code**, and asserts equality against the files in
 
 ```bash
 pip install numpy scikit-learn
-python scripts/regenerate_splits.py --ucibar "UCI HAR Dataset" --wisdm WISDM_ar_v1.1_raw.txt
+python scripts/regenerate_splits.py --ucihar "UCI HAR Dataset" --wisdm WISDM_ar_v1.1_raw.txt
 ```
 
 Expected output ends with `ALL SPLITS MATCH`.

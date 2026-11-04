@@ -5,7 +5,7 @@ type: dataset
 version: 1.0.0
 date-released: "2026-11-04"
 license: CC-BY-4.0
-repository-code: "https://github.com/REPLACE_ME/acumanip-mogwo-repro"
+repository-code: "https://github.com/DocVenom/acumanip-mogwo-repro"
 abstract: >-
   Exact cross-subject split definitions, aggregate data cards, and the corpus audit
   behind the manuscript on multi-objective evolutionary joint search of network
